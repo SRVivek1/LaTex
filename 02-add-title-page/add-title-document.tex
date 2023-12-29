@@ -1,3 +1,7 @@
+% 
+% Reference:
+% --> https://latex-tutorial.com/tutorials/
+%
 \documentclass{article}
 
 \title{My first document}
@@ -6,12 +10,27 @@
 
 \begin{document}
 	
+	% gobble - No numbering
 	\pagenumbering{gobble}
+	
 	% \maketitlte requires atleast '\title' declaration
 	% if \date is not present it will consider today's date
 	\maketitle
+	
+	% Add a new page - Page - 2
 	\newpage
+
+	% arabic – arabic numbers
+	% roman – roman numbers
 	 \pagenumbering{arabic}
 
-	Hello World!
+	Hello World - Page 2
+
+	% Add a new page - Page - 3
+	\newpage
+
+	Hello World - Page 3
+
+	
+
 \end{document}

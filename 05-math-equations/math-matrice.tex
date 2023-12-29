@@ -1,0 +1,50 @@
+%
+% References
+% -------------------------
+% --> https://tex.stackexchange.com/questions/409205/missing-inserted-for-matrices
+%
+
+\documentclass{article}
+
+% include amsmath package
+\usepackage{amsmath}
+
+\begin{document}
+
+% Matrices
+% Furthermore it’s possible to display matrices in LaTeX. 
+% There is a special matrix environment for this purpose, please keep in mind that the matrices only work within math environments as 
+% described above:
+
+
+% simple matrix - 1
+\[
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 1
+\end{bmatrix}
+\]
+
+
+% simple matrix -2 
+\[
+A = 
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 1
+\end{bmatrix}
+\]
+
+
+% complex matrix
+\[    % <-- start math environment
+R_z (\theta)=
+\begin{bmatrix}
+    \cos(\theta) & -\sin(\theta)  & 0 \\
+    \sin(\theta) &  \cos(\theta)  & 0 \\
+    0            & 0             & 1
+\end{bmatrix}
+\]    % <-- end of math environment
+
+
+\end{document}

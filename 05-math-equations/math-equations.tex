@@ -1,0 +1,41 @@
+\documentclass{article}
+
+% include amsmath package
+\usepackage{amsmath}
+
+\begin{document}
+
+%inline equations.
+\paragraph{}
+This formula $f(x) = x ^ 2$ is an example.
+
+% The equation and align environment
+\begin{equation*}
+	p(x) = f(x*2)
+\end{equation*}
+
+\begin{equation*}
+	1 + 2 = 3
+\end{equation*}
+
+\begin{equation*}
+	1 = 3 - 2
+\end{equation*}
+
+% align
+% The align environment will align the equations at the ampersand &. 
+% Single equations have to be seperated by a linebreak \\. 
+% There is no % alignment when using the simple equation environment.
+%  Furthermore it is not even possible to enter two equations in that environment, it % will result in a compilation error. 
+% The asterisk (e.g. equation*) only indicates, that I don’t want the equations to be numbered.
+\begin{align*}
+	1 + 2 &= 3 \\
+	1 &= 3 - 2
+\end{align*}
+
+\begin{align*}
+	1 +  &2 = 3 \\
+	&1 = 3 - 2
+\end{align*}
+
+\end{document}
